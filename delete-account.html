@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delete your data · Arch</title>
+    <meta
+      name="description"
+      content="How to delete all your Arch data from your device and your cloud backup." />
+    <meta name="theme-color" content="#0b0b0d" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Arch home">
+          <svg
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+            <path d="M6 28V15a10 10 0 0 1 20 0v13" />
+            <path d="M11 28V15.5a5 5 0 0 1 10 0V28" />
+          </svg>
+          Arch
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="doc">
+      <p class="overline">Your data</p>
+      <h1>Delete your data</h1>
+      <p><strong>App:</strong> Arch · <strong>Developer:</strong> NADESOFT</p>
+
+      <div class="summary">
+        <p style="margin: 0">
+          <strong>Arch has no accounts and NADESOFT stores no data about you.</strong> Everything
+          lives on your device and, if you turned on backup, in your own cloud account. You can
+          delete all of it yourself, right away, using the steps below.
+        </p>
+      </div>
+
+      <h2 id="in-app">1. Delete your cloud backup (if you use one)</h2>
+      <ol>
+        <li>Open Arch and unlock it.</li>
+        <li>Go to <strong>Settings → Backup</strong>.</li>
+        <li>
+          Tap <strong>Delete cloud backup</strong> and confirm with Face ID, fingerprint or your
+          passcode.
+        </li>
+      </ol>
+      <p>This removes every Arch file from your Google Drive, iCloud, Dropbox or OneDrive.</p>
+
+      <h2 id="device">2. Erase the vault on your device</h2>
+      <ol>
+        <li>Go to <strong>Settings → Security</strong>.</li>
+        <li>Tap <strong>Erase vault on this device</strong> and confirm.</li>
+        <li>Repeat on any other device where you use Arch, then delete the app.</li>
+      </ol>
+      <p>
+        This permanently deletes all documents, profiles, trips, the Emergency card and the device's
+        encryption keys.
+      </p>
+
+      <h2 id="revoke">3. Remove Arch's access to your cloud (optional)</h2>
+      <ul>
+        <li>
+          <strong>Google:</strong> Google Account → Security → Your connections to third-party apps
+          &amp; services → Arch → Delete all connections.
+        </li>
+        <li><strong>Dropbox:</strong> Settings → Connected apps → Arch → Disconnect.</li>
+        <li>
+          <strong>Microsoft:</strong> account.microsoft.com → Privacy → Apps and services → Arch →
+          Remove these permissions.
+        </li>
+        <li>
+          <strong>iCloud (iPhone/iPad):</strong> Settings → your name → iCloud → Manage Account
+          Storage → Arch → Delete Data.
+        </li>
+      </ul>
+
+      <h2 id="without-app">If you can't use the app</h2>
+      <p>
+        If you no longer have the app or the device, you can delete your encrypted backup directly
+        in your cloud account: remove the <code>Apps/Arch</code> folder in Dropbox or OneDrive, or
+        use the steps in section 3 for Google and iCloud. Google Drive's hidden app data is deleted
+        when you choose <strong>Delete all connections</strong> for Arch, or from Google Drive on
+        the web: Settings → Manage apps → Arch → Options → Delete hidden app data.
+      </p>
+      <p>
+        Because NADESOFT never receives your data, there is nothing for us to delete on our side. If
+        you need help, email
+        <a href="mailto:contact@nadesoft.bd?subject=Arch%20data%20deletion">contact@nadesoft.bd</a>
+        with the subject "Arch data deletion" and we will guide you within 14 days.
+      </p>
+
+      <h2 id="kept">What is kept</h2>
+      <ul>
+        <li>
+          <strong>Purchase records</strong> are kept by Apple or Google under their own policies.
+          NADESOFT doesn't hold them.
+        </li>
+        <li>
+          <strong>Encrypted backup files you exported yourself</strong> (<code>.arch</code> files)
+          stay wherever you saved them until you delete them.
+        </li>
+        <li>
+          <strong>Copies you shared</strong> with other people or apps are outside Arch's control.
+        </li>
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <nav aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="delete-account.html" aria-current="page">Delete your data</a>
+        </nav>
+        <p>© 2026 NADESOFT · <a href="mailto:contact@nadesoft.bd">contact@nadesoft.bd</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

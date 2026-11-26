@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support · Arch</title>
+    <meta
+      name="description"
+      content="Help with Arch: backups, recovery, reminders, sharing, family profiles and Arch Pro." />
+    <meta name="theme-color" content="#0b0b0d" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Arch home">
+          <svg
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+            <path d="M6 28V15a10 10 0 0 1 20 0v13" />
+            <path d="M11 28V15.5a5 5 0 0 1 10 0V28" />
+          </svg>
+          Arch
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="support.html" aria-current="page">Support</a>
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="doc">
+      <p class="overline">Help</p>
+      <h1>Support</h1>
+      <p class="lede">We read every message and usually reply within two working days.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="mailto:contact@nadesoft.bd?subject=Arch%20support"
+          >Email support</a
+        >
+      </div>
+
+      <div class="summary">
+        <p><strong>To help us help you, please include:</strong></p>
+        <ul>
+          <li>Your device model and iOS / Android version</li>
+          <li>The Arch version (Settings → About)</li>
+          <li>What you were doing, what you expected, and what happened</li>
+        </ul>
+        <p class="muted" style="margin-top: 1em">
+          Never send us photos of your documents, your Recovery Key or your passcode. We will never
+          ask for them.
+        </p>
+      </div>
+
+      <h2 id="security">Security &amp; recovery</h2>
+      <details>
+        <summary>Can NADESOFT see my documents?</summary>
+        <p>
+          No. Arch has no servers. Your documents are encrypted on your device and only backed up,
+          still encrypted, to your own cloud account.
+        </p>
+      </details>
+      <details>
+        <summary>What is the Recovery Kit and why does it matter?</summary>
+        <p>
+          During setup Arch shows a 12-word Recovery Key and a QR code. It's the only way to restore
+          your backup on a new phone. Print it or write it down and keep it somewhere safe, away
+          from your phone. We can't recover it for you.
+        </p>
+      </details>
+      <details>
+        <summary>I lost my Recovery Key. What can I do?</summary>
+        <p>
+          If you can still open Arch on any device, go to Settings → Recovery Kit and create a new
+          one. The old key stops working. If you have lost every device <em>and</em> the key, the
+          backup can't be decrypted by anyone.
+        </p>
+      </details>
+      <details>
+        <summary>Face ID / fingerprint stopped working in Arch</summary>
+        <p>
+          Use your device passcode instead. If you removed your device passcode, your phone deletes
+          Arch's device key for security. Open Arch and enter your Recovery Key to set it up again.
+          No documents are lost.
+        </p>
+      </details>
+
+      <h2 id="backup">Backup &amp; new devices</h2>
+      <details>
+        <summary>How do I back up my vault?</summary>
+        <p>
+          Settings → Backup → choose Google Drive, iCloud (iPhone and iPad), Dropbox or OneDrive.
+          Everything is encrypted before upload. You can also use Settings → Export encrypted backup
+          to save a single <code>.arch</code> file anywhere, with no cloud account needed.
+        </p>
+      </details>
+      <details>
+        <summary>How do I move to a new phone?</summary>
+        <p>
+          Install Arch, tap "I already use Arch", connect the same cloud account and scan or type
+          your Recovery Key. Or open your <code>.arch</code> file with Arch and enter the key.
+        </p>
+      </details>
+      <details>
+        <summary>I can see an "Apps/Arch" folder in Dropbox or OneDrive</summary>
+        <p>
+          That's your encrypted backup. Please don't edit, move or delete files in it. If something
+          goes missing, Arch offers to upload everything again from your phone.
+        </p>
+      </details>
+
+      <h2 id="reminders">Reminders</h2>
+      <details>
+        <summary>I'm not getting expiry reminders</summary>
+        <p>
+          Check that notifications are allowed for Arch in your phone's settings, and that the
+          document has an expiry date. Reminders are scheduled on your device, so battery-saver
+          modes that close apps can delay them. Open Arch occasionally to refresh them.
+        </p>
+      </details>
+      <details>
+        <summary>Why remind me about my passport nine months early?</summary>
+        <p>
+          Many countries require your passport to be valid for six months after you arrive, and
+          renewals take time. You can change the reminders for any document.
+        </p>
+      </details>
+
+      <h2 id="sharing">Sharing</h2>
+      <details>
+        <summary>How do I send a copy safely?</summary>
+        <p>
+          Open the document → Share. Choose a purpose such as "Hotel check-in". Arch adds a dated
+          watermark, lets you black out numbers, removes photo metadata, and deletes the temporary
+          copy afterwards.
+        </p>
+      </details>
+
+      <h2 id="family">Family, trips &amp; emergency card</h2>
+      <details>
+        <summary>Can I store my children's documents?</summary>
+        <p>
+          Yes. Add a person in the profile switcher and choose them as the owner when saving a
+          document. Their documents stay in your vault.
+        </p>
+      </details>
+      <details>
+        <summary>How does the lock-screen Emergency card work?</summary>
+        <p>
+          It's off by default. If you turn it on, only the fields you choose (for example blood type
+          and allergies) are shown without unlocking your phone, so first responders can read them.
+          Turning it off removes them immediately.
+        </p>
+      </details>
+
+      <h2 id="pro">Arch Pro &amp; purchases</h2>
+      <details>
+        <summary>How do I restore my purchase on a new device?</summary>
+        <p>Use the same Apple ID or Google account, then open Settings → Restore purchases.</p>
+      </details>
+      <details>
+        <summary>How do I cancel my subscription or get a refund?</summary>
+        <p>
+          Subscriptions are managed by Apple or Google. On iPhone: Settings → your name →
+          Subscriptions. On Android: Google Play → Profile → Payments &amp; subscriptions. Refunds
+          are handled by Apple or Google.
+        </p>
+      </details>
+      <details>
+        <summary>What happens to my documents if Pro ends?</summary>
+        <p>
+          They all stay viewable and shareable. Only Pro features (such as backup and unlimited
+          reminders) pause.
+        </p>
+      </details>
+
+      <h2 id="delete">Deleting your data</h2>
+      <p>See <a href="delete-account.html">Delete your data</a> for step-by-step instructions.</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <nav aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="delete-account.html">Delete your data</a>
+        </nav>
+        <p>© 2026 NADESOFT · <a href="mailto:contact@nadesoft.bd">contact@nadesoft.bd</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

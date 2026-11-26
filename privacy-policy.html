@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy · Arch</title>
+    <meta
+      name="description"
+      content="How Arch handles your data: encrypted on your device, backed up only to your own cloud, never on our servers." />
+    <meta name="theme-color" content="#0b0b0d" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Arch home">
+          <svg
+            viewBox="0 0 32 32"
+            aria-hidden="true"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2">
+            <path d="M6 28V15a10 10 0 0 1 20 0v13" />
+            <path d="M11 28V15.5a5 5 0 0 1 10 0V28" />
+          </svg>
+          Arch
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html" aria-current="page">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="doc">
+      <p class="overline">Legal</p>
+      <h1>Privacy Policy</h1>
+      <p class="muted">Effective date: 25 November 2026</p>
+
+      <div class="summary" aria-label="Summary">
+        <ul>
+          <li>
+            <strong>We don't collect your data.</strong> Arch has no servers, no accounts, no
+            analytics and no ads.
+          </li>
+          <li>
+            <strong>Your documents are encrypted on your device</strong> with keys only you hold.
+          </li>
+          <li>
+            <strong>Backups are optional</strong> and go, still encrypted, to your own cloud account
+            (Google Drive, iCloud, Dropbox or OneDrive). We can't read them.
+          </li>
+          <li>
+            <strong>We never sell or share your data</strong>, because we never have it. To delete
+            everything, see <a href="delete-account.html">Delete your data</a>.
+          </li>
+        </ul>
+      </div>
+
+      <h2 id="who">1. Who we are</h2>
+      <p>
+        Arch is made by NADESOFT ("we", "us"). If you have any question about this policy, email
+        <a href="mailto:contact@nadesoft.bd">contact@nadesoft.bd</a>.
+      </p>
+
+      <h2 id="how-arch-works">2. How Arch works</h2>
+      <p>
+        Arch is a local-first app. Everything you add (photos and PDFs of documents, titles,
+        numbers, dates, notes, family profiles, trips and your Emergency Medical card) is stored on
+        your device, encrypted with AES-256. The encryption keys are created on your device and kept
+        in its secure hardware keystore (iOS Keychain / Android Keystore), unlocked with your
+        biometrics or device passcode. A Recovery Key is shown to you once during setup. We never
+        receive it.
+      </p>
+      <p>
+        NADESOFT does not run any server for Arch. There is no Arch account and nothing to sign up
+        for.
+      </p>
+
+      <h2 id="what-we-collect">3. Information we collect</h2>
+      <p>
+        <strong>None.</strong> NADESOFT does not collect, receive or store any personal data through
+        Arch.
+      </p>
+      <p>
+        The table below describes data that <em>stays under your control</em>, and where it goes:
+      </p>
+      <table class="stack">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Where it goes</th>
+            <th>Who can read it</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Data">Documents, metadata, profiles, trips, medical card</td>
+            <td data-label="Where it goes">
+              Your device (encrypted). If you turn on backup: your own cloud account (encrypted).
+            </td>
+            <td data-label="Who can read it">
+              Only you, on a device you've unlocked or with your Recovery Key.
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Data">Cloud sign-in tokens</td>
+            <td data-label="Where it goes">Your device's secure keystore.</td>
+            <td data-label="Who can read it">
+              Arch on your device, to reach your own cloud folder.
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Data">Encrypted backup file (<code>.arch</code>)</td>
+            <td data-label="Where it goes">Wherever you choose to save it.</td>
+            <td data-label="Who can read it">Only someone with your Recovery Key.</td>
+          </tr>
+          <tr>
+            <td data-label="Data">
+              Emergency card fields you choose to show on the lock screen (optional, off by default)
+            </td>
+            <td data-label="Where it goes">
+              Your device's widget/notification storage, <strong>not encrypted</strong>, so they can
+              be shown without unlocking.
+            </td>
+            <td data-label="Who can read it">
+              Anyone holding your phone. Only the fields you select.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="not-collected">4. What we don't do</h2>
+      <ul>
+        <li>No analytics, tracking, advertising or advertising IDs.</li>
+        <li>No crash-reporting SDKs and no remote logging.</li>
+        <li>No location, contacts or microphone access.</li>
+        <li>No push notification service. Reminders are scheduled locally on your device.</li>
+        <li>
+          No cloud text recognition. Scanning and reading of dates and passport details happens on
+          your device.
+        </li>
+      </ul>
+
+      <h2 id="permissions">5. Device permissions</h2>
+      <table class="stack">
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Permission">Camera</td>
+            <td data-label="Why">
+              To scan documents. Scans go straight into the encrypted vault, not your photo library.
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Permission">Photos / files</td>
+            <td data-label="Why">
+              To import a document you pick, and (if you ask) to delete the original photo.
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Permission">Face ID / fingerprint</td>
+            <td data-label="Why">
+              To unlock the vault. Biometric data is handled by your device's operating system and
+              never seen by Arch.
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Permission">Notifications</td>
+            <td data-label="Why">
+              For expiry reminders and the yearly Vault check-up, scheduled on your device.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Every permission is optional and requested only when you first use the related feature.</p>
+
+      <h2 id="third-parties">6. Third-party services you may use with Arch</h2>
+      <p>Arch talks directly from your device to these services. NADESOFT is not in the middle:</p>
+      <ul>
+        <li>
+          <strong>Cloud backup (optional):</strong> Google Drive, Apple iCloud, Dropbox or Microsoft
+          OneDrive. Arch only requests access to its own app folder, not your other files. The
+          provider stores encrypted data in your account under its own privacy policy (<a
+            href="https://policies.google.com/privacy"
+            rel="noopener"
+            >Google</a
+          >, <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple</a>,
+          <a href="https://www.dropbox.com/privacy" rel="noopener">Dropbox</a>,
+          <a href="https://privacy.microsoft.com/privacystatement" rel="noopener">Microsoft</a>).
+          The provider can see the encrypted files' sizes and when they change, but not their
+          contents.
+        </li>
+        <li>
+          <strong>Purchases:</strong> Arch Pro is sold through the App Store or Google Play. Apple
+          or Google process your payment. Arch checks your purchase on your device and never
+          receives your payment details.
+        </li>
+        <li>
+          <strong>On-device text recognition (Android and iOS):</strong> Arch uses Google ML Kit's
+          on-device models to read document text. Images and recognised text stay on your device. ML
+          Kit may send Google anonymous technical information about how the library performs (for
+          example, which device model is in use), under
+          <a href="https://developers.google.com/ml-kit/terms" rel="noopener"
+            >Google's ML Kit terms</a
+          >.
+        </li>
+        <li>
+          <strong>Operating system diagnostics:</strong> if you have chosen to share diagnostics
+          with Apple or Google, they may share anonymous crash reports with developers. This is
+          controlled in your device settings, not by Arch.
+        </li>
+      </ul>
+
+      <h2 id="sharing">7. Sharing</h2>
+      <p>
+        We don't share or sell personal data. When <em>you</em> share a document from Arch (for
+        example, a watermarked copy for a hotel), you choose the recipient and app. Arch removes
+        location and camera metadata from the exported copy and deletes the temporary file
+        afterwards.
+      </p>
+
+      <h2 id="retention">8. Retention and deletion</h2>
+      <p>
+        Your data stays on your device and in your cloud for as long as you keep it there. Deleted
+        documents go to "Recently deleted" for 30 days, then they are permanently removed from your
+        device and your backup. You can erase everything at any time. See
+        <a href="delete-account.html">Delete your data</a>.
+      </p>
+
+      <h2 id="rights">9. Your rights</h2>
+      <p>
+        Wherever you live, including under the EU and UK GDPR and California's CCPA/CPRA, you have
+        rights to access, correct, export and delete your personal data. Because NADESOFT holds no
+        personal data about Arch users, you exercise these rights directly in the app: view and edit
+        any document, export an encrypted backup, or erase your vault. If you have a question or
+        complaint, email <a href="mailto:contact@nadesoft.bd">contact@nadesoft.bd</a>. We reply
+        within 30 days.
+      </p>
+
+      <h2 id="security">10. Security</h2>
+      <p>
+        Documents are encrypted with AES-256-GCM using keys generated on your device. Backups are
+        encrypted before they leave your device. Arch locks automatically when you leave it, hides
+        its content in the app switcher and blocks screenshots of documents on Android. No system is
+        perfect: keep your device passcode secure and store your Recovery Kit somewhere safe. If you
+        lose both your devices and your Recovery Key, nobody (including NADESOFT) can recover your
+        backup.
+      </p>
+
+      <h2 id="children">11. Children</h2>
+      <p>
+        Arch is not directed at children under 13 and does not knowingly collect data from anyone.
+        Parents and guardians may store their children's documents in their own vault using family
+        profiles. That data stays under the parent's control on their device and in their own cloud.
+      </p>
+
+      <h2 id="sensitive">12. Sensitive information</h2>
+      <p>
+        Identity documents, prescriptions and medical details are sensitive. Arch is designed so
+        that this information is encrypted at all times and never reaches NADESOFT. The only
+        exception is the lock-screen Emergency card, which you can turn on and limit to the fields
+        you choose.
+      </p>
+
+      <h2 id="website">13. This website</h2>
+      <p>
+        This website uses no cookies, analytics or third-party scripts. It is hosted on GitHub
+        Pages, which may log visitors' IP addresses for security, under
+        <a
+          href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+          rel="noopener"
+          >GitHub's privacy statement</a
+        >.
+      </p>
+
+      <h2 id="changes">14. Changes to this policy</h2>
+      <p>
+        If we change this policy, we will update the effective date above and, for significant
+        changes, tell you in the app before they take effect.
+      </p>
+
+      <h2 id="contact">15. Contact</h2>
+      <p>
+        NADESOFT, Bangladesh ·
+        <a href="mailto:contact@nadesoft.bd?subject=Arch%20privacy%20question"
+          >contact@nadesoft.bd</a
+        >
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <nav aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="delete-account.html">Delete your data</a>
+        </nav>
+        <p>© 2026 NADESOFT · <a href="mailto:contact@nadesoft.bd">contact@nadesoft.bd</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
